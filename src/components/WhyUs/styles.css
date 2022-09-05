@@ -1,0 +1,70 @@
+.WhyUs--card-content img {
+    height: 32px;
+    width: 32px;
+}
+
+.WhyUs--card-content h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.WhyUs--card-content p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.WhyUs--card {
+    padding-top: 24px;
+    padding-left: 24px;
+    gap: 16px;
+}
+
+.WhyUs--title h1 {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;   
+}
+
+.WhyUs--title p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.WhyUs--title {
+    width: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 24px;
+}
+
+.WhyUs--card-content{
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    gap: 16px;
+}

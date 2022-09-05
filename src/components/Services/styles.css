@@ -1,0 +1,92 @@
+.servicelist--container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.servicelist {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.servicelist--icon {
+    width: 24px;
+    height: 24px;
+}
+
+.servicelist--desc {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+
+.service--img {
+    width: 469px;
+    height: 428px;
+}
+
+.servicelist h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.servicelist p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.servicelist--list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service--container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .service--container{
+        flex-direction: row;
+      }
+    }
+
+    @media only screen and (min-width: 1024px) {
+    .service--list{
+        width: 80%;
+        padding-right: 10rem;
+    }
+    .service--container{
+        gap: 100px;
+    }
+
+    .service--img{
+        padding-left: 7rem;
+        width: 80%;
+    }
+
+    }

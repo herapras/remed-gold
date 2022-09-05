@@ -1,0 +1,34 @@
+.banner--section{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  .banner--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D28A6;
+    color: white;
+    border-radius: 15px;
+    margin: 0 0.5rem;
+    height: 500px;
+  }
+  
+  .banner--container p, .banner--container h1{
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .banner--container{
+      margin: 2rem 4rem;
+    }
+  
+    .banner--container p{
+      text-align: center;
+      padding: 2rem;
+      width: 50%;
+    }
+  }
